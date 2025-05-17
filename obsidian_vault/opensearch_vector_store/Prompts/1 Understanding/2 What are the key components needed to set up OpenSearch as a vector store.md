@@ -1,3 +1,9 @@
+---
+aliases:
+  - What are the key components needed to set up OpenSearch as a vector store
+---
+
+
 Setting up OpenSearch as a vector store requires several key components to be configured properly. Here's a comprehensive overview of what you'll need:
 
 ## Core Components

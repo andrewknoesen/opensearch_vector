@@ -1,3 +1,8 @@
+---
+aliases:
+  - Explain the benefits of using OpenSearch as a vector database compared to other vector databases
+---
+
 OpenSearch offers several distinct advantages as a vector database compared to other solutions in the market. These benefits make it particularly valuable for organizations looking to implement AI-driven applications with robust search capabilities.
 
 ## Comprehensive Search Capabilities

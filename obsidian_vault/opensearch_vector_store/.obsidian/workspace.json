@@ -6,6 +6,7 @@
       {
         "id": "bb7dcfc150eb8144",
         "type": "tabs",
+        "dimension": 81.59246575342466,
         "children": [
           {
             "id": "6217107a2ed169d9",
@@ -27,45 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prompts/0 Initialisation/0 Init Prompt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0 Init Prompt"
-            }
-          },
-          {
-            "id": "cfec7af03f2af2ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prompts/1 Understanding/Explain the benefits of using OpenSearch as a vector database compared to other vector databases.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Explain the benefits of using OpenSearch as a vector database compared to other vector databases"
-            }
-          },
-          {
-            "id": "fea03d4cb400bd29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prompts/1 Understanding/What are the key components needed to set up OpenSearch as a vector store?.md",
+                "file": "Prompts/0 Initialisation/1 Init Answer.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -80,11 +43,52 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What are the key components needed to set up OpenSearch as a vector store?"
+              "title": "1 Init Answer"
+            }
+          },
+          {
+            "id": "fea03d4cb400bd29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prompts/1 Understanding/2 What are the key components needed to set up OpenSearch as a vector store.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2 What are the key components needed to set up OpenSearch as a vector store"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
+      },
+      {
+        "id": "fac4e3dd9792700f",
+        "type": "tabs",
+        "dimension": 18.40753424657534,
+        "children": [
+          {
+            "id": "eddfa68300dbabcc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -141,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "33be5acb5cbf253a",
@@ -228,14 +232,16 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "fea03d4cb400bd29",
+  "active": "c204dc31627c713a",
   "lastOpenFiles": [
-    "Prompts/1 Understanding/Explain the benefits of using OpenSearch as a vector database compared to other vector databases.md",
-    "Prompts/1 Understanding/What are the key components needed to set up OpenSearch as a vector store?.md",
+    "Prompts/1 Understanding/3 What are the hardware and software requirements for running OpenSearch as a vector database.md",
     "Prompts/0 Initialisation/1 Init Answer.md",
+    "Prompts/1 Understanding/2 What are the key components needed to set up OpenSearch as a vector store.md",
+    "Prompts/1 Understanding/1 Explain the benefits of using OpenSearch as a vector database compared to other vector databases.md",
     "Prompts/0 Initialisation/0 Init Prompt.md",
     "Welcome.md",
     "Prompts/1 Understanding",

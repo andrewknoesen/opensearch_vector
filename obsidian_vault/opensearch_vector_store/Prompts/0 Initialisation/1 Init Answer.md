@@ -4,93 +4,93 @@ To effectively use OpenSearch as a vector store with LLM guidance, you'll want t
 
 **For Initial Understanding**
 
-- "[[Explain the benefits of using OpenSearch as a vector database compared to other vector databases]]"
+- "[[1 Explain the benefits of using OpenSearch as a vector database compared to other vector databases]]"
     
-- "What are the key components needed to set up OpenSearch as a vector store?"
+- "[[2 What are the key components needed to set up OpenSearch as a vector store]]"
     
-- "What are the hardware and software requirements for running OpenSearch as a vector database?"
+- "[[3 What are the hardware and software requirements for running OpenSearch as a vector database|What are the hardware and software requirements for running OpenSearch as a vector database]]"
     
 
 **For Installation**
 
 - "Provide step-by-step instructions for setting up an OpenSearch cluster optimized for vector search"
     
-- "How do I configure OpenSearch for optimal vector search performance?"
+- "How do I configure OpenSearch for optimal vector search performance"
     
-- "What security settings should I implement for my OpenSearch vector database?"
+- "What security settings should I implement for my OpenSearch vector database"
     
 
 ## Data Preparation and Vectorization
 
-- "How do I prepare my data for vectorization before importing to OpenSearch?"
+- "How do I prepare my data for vectorization before importing to OpenSearch"
     
-- "What text embedding models work well with OpenSearch for vector search?"
+- "What text embedding models work well with OpenSearch for vector search"
     
 - "Explain the process of converting my text data into vector embeddings for OpenSearch"
     
-- "What is the optimal way to batch process large amounts of data for vectorization?"
+- "What is the optimal way to batch process large amounts of data for vectorization"
     
 
 ## Index Creation and Configuration
 
 - "Provide the exact JSON mapping for creating a vector-enabled index in OpenSearch"
     
-- "How do I configure the k-NN settings in OpenSearch for my vector index?"
+- "How do I configure the k-NN settings in OpenSearch for my vector index"
     
-- "What distance metrics should I use for my specific use case (cosine similarity, Euclidean, etc.)?"
+- "What distance metrics should I use for my specific use case (cosine similarity, Euclidean, etc.)"
     
-- "How do I set up hybrid search combining keyword and vector search in OpenSearch?"
+- "How do I set up hybrid search combining keyword and vector search in OpenSearch"
     
 
 ## Data Ingestion
 
 - "Show me how to use the Bulk API to ingest vector data into OpenSearch"
     
-- "What's the optimal batch size when importing vector embeddings to OpenSearch?"
+- "What's the optimal batch size when importing vector embeddings to OpenSearch"
     
-- "How can I verify my vectors were properly indexed in OpenSearch?"
+- "How can I verify my vectors were properly indexed in OpenSearch"
     
 - "Provide code examples for ingesting vector data using Python/Java/etc."
     
 
 ## Query Construction and Search
 
-- "How do I construct an effective vector search query in OpenSearch?"
+- "How do I construct an effective vector search query in OpenSearch"
     
 - "Show me examples of k-NN queries with different parameters in OpenSearch"
     
-- "How do I implement hybrid search combining vector similarity with metadata filtering?"
+- "How do I implement hybrid search combining vector similarity with metadata filtering"
     
-- "What are the best practices for tuning search relevance in vector queries?"
+- "What are the best practices for tuning search relevance in vector queries"
     
 
 ## Integration with LLMs
 
-- "How do I integrate OpenSearch vector search with an LLM for RAG (Retrieval-Augmented Generation)?"
+- "How do I integrate OpenSearch vector search with an LLM for RAG (Retrieval-Augmented Generation)"
     
 - "Provide code for a complete pipeline that uses OpenSearch for retrieval and an LLM for generation"
     
-- "How should I format the context from OpenSearch vector search results for my LLM prompt?"
+- "How should I format the context from OpenSearch vector search results for my LLM prompt"
     
-- "What's the optimal number of search results to include in my LLM context window?"
+- "What's the optimal number of search results to include in my LLM context window"
     
 
 ## Performance Optimization
 
-- "How do I optimize my OpenSearch vector search for speed and accuracy?"
+- "How do I optimize my OpenSearch vector search for speed and accuracy"
     
-- "What index settings should I adjust to improve vector search performance?"
+- "What index settings should I adjust to improve vector search performance"
     
-- "How do I scale my OpenSearch vector database as my data grows?"
+- "How do I scale my OpenSearch vector database as my data grows"
     
-- "What monitoring metrics should I track for my vector search implementation?"
+- "What monitoring metrics should I track for my vector search implementation"
     
 
 ## Specific Implementation Examples
 
 - "Walk me through building a semantic search application using OpenSearch as the vector store"
     
-- "How do I implement a recommendation system using OpenSearch vector search?"
+- "How do I implement a recommendation system using OpenSearch vector search"
     
 - "Show me how to build a question-answering system with OpenSearch and an LLM"
     
