@@ -30,7 +30,6 @@ class OpensearchStack(NestedStack):
         app_name = config.project_name
         opensearch_config = config.opensearch_config
 
-        
         fine_grained_access = None
         if opensearch_config.fine_grained_access:
             opensearch_secret = secretsmanager.Secret(
@@ -48,7 +47,6 @@ class OpensearchStack(NestedStack):
                     "password"
                 ),
             )
-        
 
         # TODO: Improve this. This is just a test instance
         self.opensearch_domain = opensearch.Domain(
