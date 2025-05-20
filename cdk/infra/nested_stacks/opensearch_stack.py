@@ -35,17 +35,38 @@ class OpensearchStack(NestedStack):
             opensearch_secret = secretsmanager.Secret(
                 self,
                 "OpensearchMasterUserSecret",
+                secret_name="OpensearchSecret",
+                removal_policy=RemovalPolicy.DESTROY,
                 generate_secret_string=secretsmanager.SecretStringGenerator(
                     secret_string_template=json.dumps({"username": "admin"}),
                     generate_string_key="password",
+                    exclude_characters="\"@/\\",
+                    password_length=30
                 ),
+                description="Secret for OpenSearch master user credentials",
             )
 
             fine_grained_access = opensearch.AdvancedSecurityOptions(
-                master_user_name=opensearch_secret.secret_value_from_json("username"),
+                master_user_name="admin",
                 master_user_password=opensearch_secret.secret_value_from_json(
                     "password"
                 ),
+            )
+            
+            ssm.StringParameter(
+                self,
+                id=f"{app_name}-opensearch-secret-ssm",
+                description="OpenSearch master user credentials secret ARN",
+                parameter_name=f"/{app_name}/opensearch-secret-arn",
+                string_value=opensearch_secret.secret_arn,
+            )
+            
+            # Output the secret ARN
+            CfnOutput(
+                self,
+                "OpensearchSecretArn",
+                value=opensearch_secret.secret_arn,
+                description="ARN of the secret containing OpenSearch master user credentials"
             )
 
         # TODO: Improve this. This is just a test instance
